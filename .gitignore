@@ -1,0 +1,11 @@
+# Pluggins de Fungus
+Assets/Fungus/
+Assets/FungusExamples/
+
+# Carpetas Innecesarias
+Temp/
+UserSettings/
+Library/
+ProjectSettings/
+Logs/
+Packages/
