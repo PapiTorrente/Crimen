@@ -23,16 +23,10 @@ Textura para los guardaespaldas:
 https://www.deviantart.com/aveontrainer/art/Burglar-794741738
 
 OPCIONES
-Textura para la interfaz de usuario:
+Textura para la interfaz de usuario (Estatus de vida):
 https://humblepixel.itch.io/pocket-inventory-series-5-player-status
 
-Textura para la intefaz de usuario:
-https://limezu.itch.io/modernuserinterface
-
-Textura para la interfaz de usuario:
-https://gowldev.itch.io/pixel-art-ui-paper
-
-Textura para la interfaz de usuario (Periódicos):
+Fuente para los textos:
 https://hyohnoo.itch.io/mydearestbit
 
 Textura para la interfaz de usuario (Computadoras):
