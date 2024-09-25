@@ -2,19 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class enemGuardaespaldas : MonoBehaviour
+public class enemCarlosNavarro : MonoBehaviour
 {
-    public static double vida = 20;
-    public float frecAtaque = 2.5f, tiempoSigAtaque = 0, iniciaConteo;
+    public static double vida = 40;
+    public float frecAtaque = 1f, tiempoSigAtaque = 0, iniciaConteo;
     public bool estaUsandoArma = false;
-    public double dañoEnemigo, dañoBase = 1, dañoConArma = 3;
+    public double dañoEnemigo, dañoBase = 3, dañoConArma = 3;
 
     void Start() {
-        vida = 20;
-        frecAtaque = 2.5f;
+        vida = 40;
+        frecAtaque = 1f;
         tiempoSigAtaque = 0;
-        dañoBase = .5;
-        dañoConArma = 2.5;
+        dañoBase = 3;
+        dañoConArma = 3;
     }
 
     void Update() {

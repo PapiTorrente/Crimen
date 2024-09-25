@@ -11,7 +11,6 @@ public class vidaDetective : MonoBehaviour
     public Sprite corazonCompleto;
     public Sprite corazonMitad;
     public Sprite corazonVacio;
-
     private int vidaReal;
     public static double vida;
     private bool haMuerto;

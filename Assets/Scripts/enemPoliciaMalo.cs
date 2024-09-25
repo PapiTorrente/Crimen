@@ -24,6 +24,10 @@ public class enemPoliciaMalo : MonoBehaviour
             tiempoSigAtaque = 0;
             vidaDetective.puedePerderVida = 1;
         }
+
+        if(vida <= 0) {
+            Destroy(gameObject);
+        }
     }
 
     private double hacerDaño() {
@@ -44,10 +48,7 @@ public class enemPoliciaMalo : MonoBehaviour
         }
     }
 
-    public void tomarDaño(int Daño) {
+    public void tomarDaño(float Daño) {
         vida -= Daño;
-        if(vida <= 0) {
-            Destroy(gameObject);
-        }
     }
 }
