@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5f5708251d691cf2dab5259d314f7418
+guid: 99bbc16ef460a9d55ae67fe5ede9f9d4
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,112 +108,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: Iconos_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1014
-        width: 234
-        height: 234
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5e615b4fd6fb7141b8e9323a2e58a80f
-      internalID: 1108787721
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Iconos_1
-      rect:
-        serializedVersion: 2
-        x: 260
-        y: 1014
-        width: 234
-        height: 234
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 827a4dca809819507be9ffabf19befe1
-      internalID: -210368300
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Iconos_2
-      rect:
-        serializedVersion: 2
-        x: 520
-        y: 1014
-        width: 234
-        height: 234
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f00ba171d22aa4e95b99208dba5ffd33
-      internalID: -812067348
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Iconos_3
-      rect:
-        serializedVersion: 2
-        x: 832
-        y: 832
-        width: 416
-        height: 416
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 711a781f0ce271a3685d616f28418aa3
-      internalID: -1494909865
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Iconos_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 286
-        width: 702
-        height: 702
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9d58be6fae4d90578a385f530dd838f4
-      internalID: -1314086817
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -224,12 +119,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Iconos_0: 1108787721
-      Iconos_1: -210368300
-      Iconos_2: -812067348
-      Iconos_3: -1494909865
-      Iconos_4: -1314086817
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

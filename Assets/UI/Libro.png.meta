@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5f5708251d691cf2dab5259d314f7418
+guid: 2ccf515df9c688d2db63459e97009990
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Iconos_0
+      name: Libro_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 1014
-        width: 234
-        height: 234
+        y: 0
+        width: 313
+        height: 255
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e615b4fd6fb7141b8e9323a2e58a80f
-      internalID: 1108787721
+      spriteID: 43cc3c6fdcef76f06b744853504aa89e
+      internalID: 996772994
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iconos_1
+      name: Libro_1
       rect:
         serializedVersion: 2
-        x: 260
-        y: 1014
-        width: 234
-        height: 234
+        x: 321
+        y: 227
+        width: 28
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 827a4dca809819507be9ffabf19befe1
-      internalID: -210368300
+      spriteID: c6770c10f00716132ac3bc622be1dda9
+      internalID: 1230173507
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iconos_2
+      name: Libro_2
       rect:
         serializedVersion: 2
-        x: 520
-        y: 1014
-        width: 234
-        height: 234
+        x: 354
+        y: 97
+        width: 132
+        height: 158
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f00ba171d22aa4e95b99208dba5ffd33
-      internalID: -812067348
+      spriteID: 29164a8918b9f72a08f8c2dd992367fa
+      internalID: 97883962
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iconos_3
+      name: Libro_3
       rect:
         serializedVersion: 2
-        x: 832
-        y: 832
-        width: 416
-        height: 416
+        x: 321
+        y: 198
+        width: 28
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +187,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 711a781f0ce271a3685d616f28418aa3
-      internalID: -1494909865
+      spriteID: 41e75641a8c489a469e9573fb58998de
+      internalID: 249340795
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iconos_4
+      name: Libro_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 286
-        width: 702
-        height: 702
+        x: 321
+        y: 169
+        width: 28
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,8 +208,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d58be6fae4d90578a385f530dd838f4
-      internalID: -1314086817
+      spriteID: 02ec322d2f4375a50869f850a6d9564a
+      internalID: 251132616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Libro_5
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 140
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8051bf8614c48eb8aa2f8a2f89faeaa7
+      internalID: 1940363307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Libro_6
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 111
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096ad4accd17e0305b8e086b2534d59b
+      internalID: -1222218681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Libro_7
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 82
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb038e1259137e69a7910fd8c8151c8
+      internalID: -19486356
       vertices: []
       indices: 
       edges: []
@@ -225,11 +288,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Iconos_0: 1108787721
-      Iconos_1: -210368300
-      Iconos_2: -812067348
-      Iconos_3: -1494909865
-      Iconos_4: -1314086817
+      Libro_0: 996772994
+      Libro_1: 1230173507
+      Libro_2: 97883962
+      Libro_3: 249340795
+      Libro_4: 251132616
+      Libro_5: 1940363307
+      Libro_6: -1222218681
+      Libro_7: -19486356
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

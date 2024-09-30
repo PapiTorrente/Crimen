@@ -56,5 +56,6 @@ public class vidaDetective : MonoBehaviour
     IEnumerator EjecutaMuerte() {
         yield return new WaitForSeconds(1f);
         gameOver.SetActive(true);
+        Time.timeScale = 0;
     }
 }
