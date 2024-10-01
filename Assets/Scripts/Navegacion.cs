@@ -25,7 +25,8 @@ public class Navegacion : MonoBehaviour
 
     //Pantalla de Muerte
     public void Reaparecer() {
-        SceneManager.LoadScene("Juego");
+        //SceneManager.LoadScene("Juego");
+        Debug.Log("Reaparecí");
     }
     public void Regresar() {
         SceneManager.LoadScene("MenuInicio");
