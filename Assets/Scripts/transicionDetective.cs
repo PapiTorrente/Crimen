@@ -10,8 +10,8 @@ public class transicionDetective : MonoBehaviour
             this.transform.position = posicionPlayer;
         }
 
-        if(obj.gameObject.tag == "Portal_02") {
-            Vector3 posicionPlayer = new Vector3(1,1,1);
+        if(obj.gameObject.tag == "Portal_02") { //Portal 02 a Portal 14
+            Vector3 posicionPlayer = new Vector3(30.953f,5.9f,1);
             this.transform.position = posicionPlayer;
         }
 
@@ -20,8 +20,8 @@ public class transicionDetective : MonoBehaviour
             this.transform.position = posicionPlayer;
         }
 
-        if(obj.gameObject.tag == "Portal_04") {
-            Vector3 posicionPlayer = new Vector3(1,1,1);
+        if(obj.gameObject.tag == "Portal_04") { //Portal 04 a Portal 15
+            Vector3 posicionPlayer = new Vector3(30.953f,-11.2f,1);
             this.transform.position = posicionPlayer;
         }
 
@@ -57,6 +57,26 @@ public class transicionDetective : MonoBehaviour
 
         if(obj.gameObject.tag == "Portal_11") { //Portal 11 a Portal 10
             Vector3 posicionPlayer = new Vector3(-18.53f,8.48f,0);
+            this.transform.position = posicionPlayer;
+        }
+
+        if(obj.gameObject.tag == "Portal_12") { //Portal 12 a Portal 13
+            Vector3 posicionPlayer = new Vector3(49.5494f,-34.4f,0);
+            this.transform.position = posicionPlayer;
+        }
+
+        if(obj.gameObject.tag == "Portal_13") { //Portal 13 a Portal 12
+            Vector3 posicionPlayer = new Vector3(50.9218f,-20.78f,0);
+            this.transform.position = posicionPlayer;
+        }
+
+        if(obj.gameObject.tag == "Portal_14") { //Portal 14 a Portal 02
+            Vector3 posicionPlayer = new Vector3(20.09f,5.9f,0);
+            this.transform.position = posicionPlayer;
+        }
+
+        if(obj.gameObject.tag == "Portal_15") { //Portal 14 a Portal 04
+            Vector3 posicionPlayer = new Vector3(20.09f,-11.2f,0);
             this.transform.position = posicionPlayer;
         }
     }
