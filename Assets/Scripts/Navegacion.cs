@@ -5,13 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class Navegacion : MonoBehaviour
 {
-    //Menú de Inicio
-    public void Jugar() {
-        SceneManager.LoadScene("Juego");
+    public Configuracion Config;
+
+    void Start() {
+        Config = GameObject.FindGameObjectWithTag("Opciones").GetComponent<Configuracion>();
     }
 
-    public void Opciones() {
-        SceneManager.LoadScene("Opciones");
+    //Menú de Inicio
+    public void Jugar() {
+        SceneManager.LoadScene("Acto1");
     }
 
     public void Creditos() {
@@ -30,5 +32,18 @@ public class Navegacion : MonoBehaviour
     }
     public void Regresar() {
         SceneManager.LoadScene("MenuInicio");
+    }
+
+    //Pantalla de Pausa
+    public void Configuración() {
+        Config.pantallaOpciones.SetActive(true);
+    }
+
+    public void SalirMenu() {
+        SceneManager.LoadScene("MenuInicio");
+    }
+
+    public void SalirEscritorio() {
+        Application.Quit();
     }
 }

@@ -8,6 +8,7 @@ public class ControladorConfig : MonoBehaviour
 
     //Configuración de Video
     public Toggle toggleSilencio;
+    public float valorReferencia;
     public Slider sliderVolumen;
     public float valorSliderVolumen;
 
@@ -20,6 +21,7 @@ public class ControladorConfig : MonoBehaviour
 
     void Start() {
         //Volumen
+        toggleSilencio.isOn = AudioListener.volume > 0;
         sliderVolumen.value = PlayerPrefs.GetFloat("volumen", 0.45f);
         AudioListener.volume = sliderVolumen.value;
 
@@ -35,11 +37,21 @@ public class ControladorConfig : MonoBehaviour
         imgBrillo.color = new Color(imgBrillo.color.r, imgBrillo.color.g, imgBrillo.color.b, sliderBrillo.value);
     }
 
+    public void ActivarAudio(bool audio) {
+        if(toggleSilencio.isOn) {
+            valorReferencia = AudioListener.volume;
+            AudioListener.volume = 0f;
+            sliderVolumen.value = 0f;
+        } else {
+            AudioListener.volume = valorReferencia;
+            sliderVolumen.value = valorReferencia;
+        }
+    }
+
     public void ChangeSliderVolumen(float valor){
         valorSliderVolumen = valor;
         PlayerPrefs.SetFloat("volumen", valorSliderVolumen);
         AudioListener.volume = sliderVolumen.value;
-        //Revisar si estoy mute ();
     }
 
     public void ActivarPantallaCompleta(bool pantallaCompleta) {
