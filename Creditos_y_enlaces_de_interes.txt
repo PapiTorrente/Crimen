@@ -26,9 +26,6 @@ OPCIONES
 Textura para la interfaz de usuario (Estatus de vida):
 https://humblepixel.itch.io/pocket-inventory-series-5-player-status
 
-Fuente para los textos:
-https://hyohnoo.itch.io/mydearestbit
-
 Textura para la interfaz de usuario (Computadoras):
 https://comp3interactive.itch.io/retro-windows-gui
 
