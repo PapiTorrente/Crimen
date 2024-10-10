@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Pausa : MonoBehaviour
+public class controladorPanelPausa : MonoBehaviour
 {
     public bool estaPausado = false;
     public GameObject menuPausa;

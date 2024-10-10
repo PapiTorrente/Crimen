@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ControladorConfig : MonoBehaviour
+public class panelConfiguracion : MonoBehaviour
 {
 
     //Configuración de Video

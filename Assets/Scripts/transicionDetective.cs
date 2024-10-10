@@ -46,7 +46,7 @@ public class transicionDetective : MonoBehaviour
         }
         
         if(obj.gameObject.tag == "Portal_09") { //Portal 09 a Portal 
-            Vector3 posicionPlayer = new Vector3(-36.2f,18f,0);
+            Vector3 posicionPlayer = new Vector3(-59.24f,-6.89f,0);
             this.transform.position = posicionPlayer;
         }
 
@@ -77,6 +77,11 @@ public class transicionDetective : MonoBehaviour
 
         if(obj.gameObject.tag == "Portal_15") { //Portal 14 a Portal 04
             Vector3 posicionPlayer = new Vector3(20.09f,-11.2f,0);
+            this.transform.position = posicionPlayer;
+        }
+
+        if(obj.gameObject.tag == "Portal_16") { //Portal 14 a Portal 04
+            Vector3 posicionPlayer = new Vector3(-42.725f,-6.7f,0);
             this.transform.position = posicionPlayer;
         }
     }

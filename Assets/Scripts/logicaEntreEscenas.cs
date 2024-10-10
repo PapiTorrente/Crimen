@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class logicaEntreEscenas : MonoBehaviour
 {
-
     private void Awake() {
         var noDestruirEntreEscenas = FindObjectsOfType<logicaEntreEscenas>();
         if(noDestruirEntreEscenas.Length > 1) {
@@ -12,17 +11,5 @@ public class logicaEntreEscenas : MonoBehaviour
             return;
         }
         DontDestroyOnLoad(gameObject);
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

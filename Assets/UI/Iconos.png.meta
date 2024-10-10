@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e615b4fd6fb7141b8e9323a2e58a80f
-      internalID: 1108787721
+      spriteID: dd9e94ff8c11a39868862277f5b47146
+      internalID: -804971104
       vertices: []
       indices: 
       edges: []
@@ -145,8 +145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 827a4dca809819507be9ffabf19befe1
-      internalID: -210368300
+      spriteID: 10140a4dc0ebd4d8bb59b49ee3678d73
+      internalID: 1554044160
       vertices: []
       indices: 
       edges: []
@@ -166,8 +166,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f00ba171d22aa4e95b99208dba5ffd33
-      internalID: -812067348
+      spriteID: d8196a1eb6eebf102a74aa4bfceb7304
+      internalID: 223282903
       vertices: []
       indices: 
       edges: []
@@ -187,8 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 711a781f0ce271a3685d616f28418aa3
-      internalID: -1494909865
+      spriteID: db568c599d94e9b4f928dedaba091d05
+      internalID: -1649755656
       vertices: []
       indices: 
       edges: []
@@ -208,8 +208,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d58be6fae4d90578a385f530dd838f4
-      internalID: -1314086817
+      spriteID: 182f2e68503bb8f319337bef420bf322
+      internalID: -1705823231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_5
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 382
+        width: 416
+        height: 416
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81838d3bdf6a9a1d2ac25c69e8014a94
+      internalID: -940010807
       vertices: []
       indices: 
       edges: []
@@ -225,11 +246,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Iconos_0: 1108787721
-      Iconos_1: -210368300
-      Iconos_2: -812067348
-      Iconos_3: -1494909865
-      Iconos_4: -1314086817
+      Iconos_0: -804971104
+      Iconos_1: 1554044160
+      Iconos_2: 223282903
+      Iconos_3: -1649755656
+      Iconos_4: -1705823231
+      Iconos_5: -940010807
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

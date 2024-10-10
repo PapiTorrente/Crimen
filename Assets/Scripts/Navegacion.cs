@@ -5,10 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class Navegacion : MonoBehaviour
 {
-    public Configuracion Config;
+    public Config config;
 
     void Start() {
-        Config = GameObject.FindGameObjectWithTag("Opciones").GetComponent<Configuracion>();
+        config = GameObject.FindGameObjectWithTag("Opciones").GetComponent<Config>();
     }
 
     //Menú de Inicio
@@ -36,10 +36,11 @@ public class Navegacion : MonoBehaviour
 
     //Pantalla de Pausa
     public void Configuración() {
-        Config.pantallaOpciones.SetActive(true);
+        config.pantallaOpciones.SetActive(true);
     }
 
     public void SalirMenu() {
+        Time.timeScale = 1f;
         SceneManager.LoadScene("MenuInicio");
     }
 
