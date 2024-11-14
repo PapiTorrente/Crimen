@@ -1,0 +1,6 @@
+# Carpetas Innecesarias
+.vscode/
+Library/
+Logs/
+Packages/
+UserSettings/
