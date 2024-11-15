@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class Navegacion : MonoBehaviour
 {
     public Config config;
+    public GameObject controles;
 
     void Start() {
         config = GameObject.FindGameObjectWithTag("Opciones").GetComponent<Config>();
@@ -37,6 +38,10 @@ public class Navegacion : MonoBehaviour
     //Pantalla de Pausa
     public void Configuración() {
         config.pantallaOpciones.SetActive(true);
+    }
+
+    public void Controles() {
+        controles.SetActive(true);
     }
 
     public void SalirMenu() {
