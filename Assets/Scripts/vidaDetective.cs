@@ -16,6 +16,11 @@ public class vidaDetective : MonoBehaviour
     private bool haMuerto;
     public GameObject gameOver;
     public static int puedePerderVida = 1;
+    private Vector4 colorDaño = new Vector4(1.0f, 0.564705882f, 0.564705882f, 1.0f);
+    private Vector4 colorNoDaño = new Vector4(1.0f, 1.0f, 1.0f, 1.0f);
+    public SpriteRenderer jugador;
+    private float reestablecerSprite = 0.5f;
+    public AudioSource sonidoVida;
 
     void Start() {
         haMuerto = false;
@@ -31,14 +36,23 @@ public class vidaDetective : MonoBehaviour
             haMuerto = true;
             StartCoroutine(EjecutaMuerte());
         }
+
+        if(reestablecerSprite > 0) {
+            reestablecerSprite -= Time.deltaTime;
+        } else {
+            reestablecerSprite = 0;
+            jugador.color = new Color(colorNoDaño.x, colorNoDaño.y, colorNoDaño.z, colorNoDaño.w);
+        }
     }
 
     public void tomarDaño(double Daño) {
         if(vida >= .5 && puedePerderVida == 1) {
             puedePerderVida = 0;
             vida -= Daño;
+            sonidoVida.Play();
+            jugador.color = new Color(colorDaño.x, colorDaño.y, colorDaño.z, colorDaño.w);
+            reestablecerSprite = 0.5f;
         }
-        Debug.Log("Vida: " + vida);
     }
 
     void actualizarCorazones() {

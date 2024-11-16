@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class Navegacion : MonoBehaviour
@@ -15,10 +16,6 @@ public class Navegacion : MonoBehaviour
     //Menú de Inicio
     public void Jugar() {
         SceneManager.LoadScene("Acto1");
-    }
-
-    public void Creditos() {
-        SceneManager.LoadScene("Creditos");
     }
 
     public void Salir() {

@@ -2,20 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class enemGuardaespaldas : MonoBehaviour
+public class Enemigo : MonoBehaviour
 {
-    public static double vida = 20;
-    public float frecAtaque = 2.5f, tiempoSigAtaque = 0, iniciaConteo;
+    public double vida;
+    public float frecAtaque, tiempoSigAtaque, iniciaConteo;
     public bool estaUsandoArma = false;
-    public double dañoEnemigo, dañoBase = 1, dañoConArma = 3;
-
-    void Start() {
-        vida = 20;
-        frecAtaque = 2.5f;
-        tiempoSigAtaque = 0;
-        dañoBase = .5;
-        dañoConArma = 2.5;
-    }
+    public double dañoEnemigo, dañoBase, dañoConArma;
 
     void Update() {
         if(tiempoSigAtaque > 0) {
